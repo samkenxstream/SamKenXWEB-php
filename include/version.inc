@@ -20,37 +20,37 @@ $RELEASES = (function () {
 
     /* PHP 8.2 Release */
     $data['8.2'] = [
-        'version' => '8.2.3',
-        'date' => '14 Feb 2023',
-        'tags' => ['security'], // Set to ['security'] for security releases.
+        'version' => '8.2.8',
+        'date' => '06 Jul 2023',
+        'tags' => [], // Set to ['security'] for security releases.
         'sha256' => [
-            'tar.gz' => '7c475bcbe61d28b6878604b1b6f387f39d1a63b5f21fa8156fd7aa615d43e259',
-            'tar.bz2' => '87bb58865f38f5e2941813029152cea2102fe2961bb4d68b88f831ddd0548d0f',
-            'tar.xz' => 'b9b566686e351125d67568a33291650eb8dfa26614d205d70d82e6e92613d457',
+            'tar.gz' => '6419b74e9b675c8d5a1afd2788c4d7996a19bbe2be409716ccb2067897af9df1',
+            'tar.bz2' => '995ed4009c7917c962d31837a1a3658f36d4af4f357b673c97ffdbe6403f8517',
+            'tar.xz' => 'cfe1055fbcd486de7d3312da6146949aae577365808790af6018205567609801',
         ]
     ];
 
     /* PHP 8.1 Release */
     $data['8.1'] = [
-        'version' => '8.1.16',
-        'date' => '14 Feb 2023',
-        'tags' => ['security'], // Set to ['security'] for security releases.
+        'version' => '8.1.21',
+        'date' => '06 Jul 2023',
+        'tags' => [], // Set to ['security'] for security releases.
         'sha256' => [
-            'tar.gz' => 'a929fb9ed3bc364a5dea4f64954e8aaaa3408b87df04d7c6f743a190f5594e84',
-            'tar.bz2' => 'cd9f0ea14d82d9455587a49a0b6c802a7b8d8ff79703f9f48b17db010fb633ce',
-            'tar.xz' => 'd61f13d96a58b93c39672b58f25e1ee4ce88500f4acb1430cb01a514875c1258',
+            'tar.gz' => 'a95f8d35924aa5705ad07a70dc994bf41b5d45126ecdec7aaad6edfbe5e1c37f',
+            'tar.bz2' => '6ea49e8335d632177f56b507160aa151c7b020185789a9c14859fce5d4a0776d',
+            'tar.xz' => 'e634a00b0c6a8cd39e840e9fb30b5227b820b7a9ace95b7b001053c1411c4821',
         ]
     ];
 
     /* PHP 8.0 Release */
     $data['8.0'] = [
-        'version' => '8.0.28',
-        'date' => '14 Feb 2023',
+        'version' => '8.0.29',
+        'date' => '08 Jun 2023',
         'tags' => ['security'], // Set to ['security'] for security releases.
         'sha256' => [
-            'tar.gz' => '7432184eae01e4e8e39f03f80e8ec0ca2c8bfebc56e9a7b983541ca8805df22f',
-            'tar.bz2' => '9d5e74935c900e3b9c7b6bc740596b71933630eb9f63717c0c4923d8c788c62e',
-            'tar.xz' => '5e07278a1f315a67d36a676c01343ca2d4da5ec5bdb15d018e4248b3012bc0cd',
+            'tar.gz' => 'db6ee08df5706365f624cde1cffb20ad6de1effe59d7e886337213a09f2e2684',
+            'tar.bz2' => '4801a1f0e17170286723ab54acd045ac78a9656021d56f104a64543eec922e12',
+            'tar.xz' => '14db2fbf26c07d0eb2c9fab25dbde7e27726a3e88452cca671f0896bbb683ca9',
         ]
     ];
 
